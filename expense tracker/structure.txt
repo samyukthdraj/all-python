@@ -1,0 +1,94 @@
+Expense-Tracker 
+
+-.git/
+
+-.backend/
+
+--config/db.js
+
+--controllers/userController.js
+
+--middleware/
+
+--models/expense.js, user.js
+
+--node_modules/
+
+--routes/expenseRoutes.js, userRoutes.js
+
+--.env
+
+--package.json
+
+--package-lock.json
+
+--server.js
+
+-frontend/
+
+--components/
+
+--node_modules/
+
+--pages/ExpensePage.js, LoginPage.js, SignupPage.js
+
+--public/
+
+--src/
+
+--.env
+
+--.gitignore
+
+--packages.json
+
+--package-lock.json
+
+-node_modules
+
+-README.md
+
+
+
+
+
+
+Expense-Tracker/
+├── .git/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   └── + expenseController.js  (This was missing)
+│   ├── middleware/
+│   ├── models/
+│   │   ├── expense.js
+│   │   └── user.js
+│   ├── node_modules/
+│   ├── routes/
+│   │   ├── expenseRoutes.js
+│   │   └── userRoutes.js
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
+├── frontend/
+│   ├── node_modules/
+│   ├── src/
+│   │   ├── pages/
+│   │   |    ├── ExpensePage.js
+│   │   |    ├── LoginPage.js
+│   │   |    ├── SignupPage.js
+│   │   |    └── HeroPage.js
+│   │   ├── components/
+│   │   |    ├── ExpensesDashboard.js
+│   │   ├── styles/
+│   │   |    ├── calendar.css
+│   ├── public/
+│   ├── .env
+│   ├── .gitignore
+│   ├── package.json
+│   └── package-lock.json
+├── node_modules/
+└── README.md
